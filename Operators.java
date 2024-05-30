@@ -2,7 +2,7 @@ class Operators
 {
     public static void main(String args[]) {
 
-        int num = 7;
+        // int num = 7;
         // int num2 = 5;
         
         // int add = num1 + num2;
@@ -25,8 +25,41 @@ class Operators
         // num *= 2;
         // num /= 2;
         // num++;    // increment
-        num--;    // decrement
+        // num--;    // decrement
 
-        System.out.println(num);
+        // System.out.println(num);
+
+
+        // relation operators
+        
+        // less 
+        // > greater
+        // == equal
+        // <= less then equal
+        // >= greater than equal
+
+        // int x = 6;
+        // int y = 6;
+
+        // boolean result = x == y;
+        // boolean result = x > y;
+        // boolean result = x < y;
+        // System.out.println(result);
+
+
+        // Logical Operators
+
+        // && and
+        // || or
+
+        int x = 7;
+        int y = 5;
+        int a = 5;
+        int b = 9;
+
+        // boolean result = x > y && a > b;
+        boolean result = x > y || a > b;
+        System.out.println(result);
+
     }
 }
