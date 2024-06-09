@@ -5,15 +5,12 @@ class Mobile{
 //	String name;
 	static String name;
 
-    
-    static {
-		name="Phone";
-		System.out.println("in static block");
-	}
-	
-
 	public void show() {
 		System.out.println(brand+" : "+price+" : "+name);
+	}
+
+	public static void show1(Mobile obj1) {
+		System.out.println(obj1.brand+" : "+ obj1.price +" : "+name);
 	}
 	
 }
@@ -41,6 +38,7 @@ public class Static {
 		
 		//System.out.println(obj1.brand);
 
+		Mobile.show1(obj1);
 	
 	}
 }
