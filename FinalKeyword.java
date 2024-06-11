@@ -13,7 +13,7 @@
 //}
 
 
-class Calc
+class Calc1
 {
 	public final void show()
 	{
@@ -25,7 +25,7 @@ class Calc
 	}
 }
 
-class AdvCalc extends Calc
+class AdvCalc1 extends Calc1
 {
 	public void show() // this is will be error, because we can't access show method from calc class, because it's final
 	{
@@ -46,7 +46,7 @@ public class FinalKeyword{
 //    	obj.show();
 //    	obj.add(4, 5);
     	
-    	AdvCalc obj= new AdvCalc();
+    	AdvCalc1 obj= new AdvCalc1();
     	obj.show();
     	obj.add(4, 5);
     }
