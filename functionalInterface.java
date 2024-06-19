@@ -1,5 +1,5 @@
-@FunctionalInterface // only can hava single abstrack method (SAM)
-interface A
+@FunctionalInterface 
+interface A // only can hava single abstrack method (SAM) if using functional interface
 {
     void show();
 }
